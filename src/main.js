@@ -23,7 +23,7 @@ export default class Main extends Component{
         {usuarios.map(usuario =>( 
           <ul>
             <button key={usuario.id}>{usuario.login}</button>
-              <p>{usuario.repos_url}</p>
+              
           </ul>
           ))}
       </div>
